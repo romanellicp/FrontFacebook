@@ -138,4 +138,19 @@ form .w100 h2{
 form select.nascimento{
 	margin-top: 5px;
 	float: left;
+	margin-top: 5px;
+}
+
+.input-radio{
+	margin: 8px 10px;
+	float: left;
+}
+
+.input-radio h2{
+	display: inline-block;
+}
+
+.input-radio input[type=radio]{
+	width: auto !important;
+	display: inline-block;
 }

@@ -72,9 +72,24 @@
 								<option value="0">Junho</option>
 							</select>
 							<select name="nascimento-ano" class="nascimento">
-								<option value="1">1960</option>
+								<?php
+								for($i = 1940; $i <= 2021; $i++){
+								?>
+								<option value="<?php echo $i ?>"><?php echo $i; ?></option>
+								<?php } ?>
 							</select>
 							<div class="clear"></div>
+						</div><!--w100-->
+
+						<div class="w100">
+							<div class="input-radio">
+								<input type="radio" name="sexo" value="masculino">
+								<h2>Masculino</h2>
+							</div><!--radio-->
+							<div class="input-radio">
+								<input type="radio" name="sexo" value="feminino">
+								<h2>Feminino</h2>
+							</div><!--radio-->
 						</div><!--w100-->
 
 						<div class="w100">
